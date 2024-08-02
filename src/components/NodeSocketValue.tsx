@@ -1,7 +1,6 @@
 import { GeometryNodeInput } from "../types";
 import { styled } from "styled-components";
 import Stack from "./Stack";
-import { CSSProperties } from "react";
 
 const INPUT_BORDER_RADIUS = '3px';
 
