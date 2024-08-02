@@ -6,6 +6,7 @@ import { name } from "./package.json";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/geometry-node-graph/',
   plugins: [react(), dts()],
   build: {
     lib: {
